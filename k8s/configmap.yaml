@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: helloservice
 data:
-  greeting.message: Hello Kubernetes!
-  helloservice:
-    greet:
-      msg: Good Evening!     
+  application.yaml: |-
+    helloservice:
+      greet:
+        msg: Good Morning!     
